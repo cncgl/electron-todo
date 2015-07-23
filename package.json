@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp compile",
+    "build": "gulp build",
     "package": "electron-packager . todo --platform=all --arch=x64 --version=0.30.0 --prune --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
