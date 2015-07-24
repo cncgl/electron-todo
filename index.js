@@ -22,6 +22,10 @@ app.on('window-all-closed', function() {
     }
 });
 
+var Tray = require('tray');
+var appIcon = new Tray( '/images/icon.png');
+
+
 // Electronの初期化完了後に実行
 app.on('ready', function() {
     // メイン画面の表示。ウィンドウの幅、高さを指定できる
