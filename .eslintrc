@@ -1,0 +1,9 @@
+{
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "parser": "esprima-fb",
+  "rules": {
+    "semi": 2
+  }
+}
