@@ -12,10 +12,13 @@
   "author": "cncgl",
   "license": "MIT",
   "dependencies": {
+    "director": "^1.2.8",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-load-plugins": "^0.10.0",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "todomvc-app-css": "^2.0.1",
+    "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
     "esprima": "^2.4.1",
