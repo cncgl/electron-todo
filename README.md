@@ -10,6 +10,11 @@ Electron sample
 # How to Use
 
 npm は @2 でインストールしてください。
+```
+$ npm i -g npm@2
+```
+
+
 
 ESLint は 1.0.0-rc-3 で確認しています。グローバルインストール推奨です。
 

@@ -1,11 +1,15 @@
 {
   "name": "todo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cncgl/electron-todo.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
-    "package": "electron-packager . todo --platform=all --arch=x64 --version=0.30.0 --prune --overwrite",
+    "package": "node_modules/.bin/electron-packager . todo --platform=all --arch=x64 --version=0.30.0 --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +25,7 @@
     "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
+    "electron-packager": "^5.0.1",
     "esprima": "^2.4.1",
     "esprima-fb": "^15001.1.0-dev-harmony-fb"
   }
