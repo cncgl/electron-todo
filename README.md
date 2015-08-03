@@ -1,5 +1,6 @@
 # electron-todo
-Electron sample
+
+Electron のサンプルプログラム。アプリ部分は todoMVC を利用しています。
 
 
 # Status
@@ -22,3 +23,14 @@ ESLint は 1.0.0-rc-3 で確認しています。グローバルインストー�
 ```
 $ npm i -g eslint@1.0.0-rc-3
 ```
+
+
+クローンと node module　のインストール
+
+```
+$ git clone https://github.com/cncgl/electron-todo.git
+$ npm -i
+$ npm run build
+$ electron .
+```
+
